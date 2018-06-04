@@ -3,7 +3,8 @@
 void printSortMenu(void)
 {
     printf("\n=== sort menu ===\n");
-    printf("1. radix sort\n");
+    printf("1. counting sort\n");
+    printf("2. radix sort\n");
     printf("ff. exit\n");
 }
 
@@ -19,7 +20,11 @@ void sortMain(void)
         switch(input)
         {
             case 1:
-                radixSort();
+                countingSortMain();
+                break;
+
+            case 2:
+                radixSortMain();
                 break;
 
             default:
@@ -29,10 +34,4 @@ void sortMain(void)
         if( input == 0xff )
             break;
     }
-}
-
-int radixSort(void)
-{
-    printf("hello\n");
-    return 0;
 }

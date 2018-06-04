@@ -2,8 +2,9 @@
 #define SORTMAIN
 
 #include "common.h"
+#include "countingSort.h"
+#include "radixSort.h"
 
 void sortMain(void);
-int radixSort(void);
 
 #endif
