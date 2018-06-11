@@ -4,6 +4,6 @@
 #include "sortMain.h"
 
 int countingSortMain(void);
-void countingSort(int *count, int inputNum);
+void countingSort(int *num, int inputNum, int *sort);
 
 #endif
