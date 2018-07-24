@@ -37,10 +37,10 @@ void countingSort(int *num, int inputNum, int *sort)
     for(i=0; i<inputNum; i++)
         count[num[i]]++;
 
-    for(i=1; i<=inputNum; i++)
+    for(i=1; i<=MAX_NUM; i++)
         count[i] += count[i-1];
 
-    for(i=0; i<inputNum; i++)
+    for(i=0; i<=MAX_NUM; i++)
     {
         sort[count[num[i]]] = num[i];
         count[num[i]]--;

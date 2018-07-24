@@ -13,9 +13,11 @@ set(BIN_NAME hongStudy)
 #source list
 set(SRC_LIST
     ${CMAKE_SOURCE_DIR}/src/main.c
-    ${CMAKE_SOURCE_DIR}/src/sort/sortMain.c
-    ${CMAKE_SOURCE_DIR}/src/sort/radixSort.c
     ${CMAKE_SOURCE_DIR}/src/sort/countingSort.c
+    ${CMAKE_SOURCE_DIR}/src/sort/radixSort.c
+    ${CMAKE_SOURCE_DIR}/src/sort/sortMain.c
+    ${CMAKE_SOURCE_DIR}/src/sort/statistics.c
+    ${CMAKE_SOURCE_DIR}/src/sort/quickSort.c
 )
 
 #include files
