@@ -18,6 +18,8 @@ set(SRC_LIST
     ${CMAKE_SOURCE_DIR}/src/sort/sortMain.c
     ${CMAKE_SOURCE_DIR}/src/sort/statistics.c
     ${CMAKE_SOURCE_DIR}/src/sort/quickSort.c
+    ${CMAKE_SOURCE_DIR}/src/algorithm/algorithmMain.c
+    ${CMAKE_SOURCE_DIR}/src/algorithm/getArea2583.c
 )
 
 #include files

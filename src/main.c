@@ -4,6 +4,7 @@ void printMainMenu(void)
 {
     printf("\n=== main menu ===\n");
     printf("1. sort\n");
+    printf("2. algorithm\n");
     printf("ff. exit\n");
 }
 
@@ -20,6 +21,10 @@ int main(void)
         {
             case 1:
                 sortMain();
+                break;
+
+            case 2:
+                algorithmMain();
                 break;
 
             default:
